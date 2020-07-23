@@ -1,7 +1,6 @@
-describe("whatCanIDrink", function(){
-    describe("tests what you should drink", function(){
-        it("should return name of drink", function(){
-            expect(whatCanIDrink(18)).toBe("Drink Coke");
-        });
-    });
+describe ('Drink Choices', function(){
+    describe('tells you what to drink', function(){
+       it("should return message saying drink can't be determined")
+       expect(whatCanIDrink(-1)).toBe("Sorry. I can’t tell what drink because that age is incorrect!")
+    })
 })
