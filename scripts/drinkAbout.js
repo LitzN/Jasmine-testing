@@ -1,4 +1,4 @@
-function whatCanIDrink(age){
+/*function whatCanIDrink(age){
     if(age<0){
         return "Sorry. I can’t tell what drink because that age is incorrect!"
     }
@@ -17,4 +17,19 @@ function whatCanIDrink(age){
     else{
         return "Sorry. I can’t tell what drink because that age is incorrect!"
     }
+}
+*/
+function fizzBuzz(number){
+if(number % 3 === 0 && number % 5 === 0){
+    return "fizzBuzz";
+}
+else if(number % 3 === 0){
+    return "Fizz";
+}
+else if(number % 5 === 0){
+    return "Buzz"
+}
+else{
+    return number
+}
 }
